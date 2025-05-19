@@ -1,0 +1,18 @@
+uts = int (input ("Masukkan nilai UTS anda: "))
+uas = int (input ("Masukkan nilai UAS anda: "))
+tugas = int (input ("Masukkan nilai Tugas anda: "))
+
+total = (uts + uas + tugas) / 3
+
+if total >= 85:
+     print ("Selamat anda mendapatkan nilai A")
+     print ("Selamat anda lulus")
+elif total >= 70:
+    print ("Selamat anda mendapatkan nilai B")
+    print ("Selamat anda lulus")
+elif total >= 55:
+    print ("Selamat anda mendapatkan nilai C")
+    print ("Sayangnya anda harus Remedi")
+else:
+    print ("Selamat anda mendapatkan nilai D")
+    print ("Tapi kayanya kamu harus ngulang lagi deh, karena kamu ga lulus")
